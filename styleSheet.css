@@ -1,14 +1,9 @@
 .app-ltr-v4gekj {
 border-radius: 40px !important;
 }
-/* Masaüstünde ve büyük ekranlarda tamamen gizle */
-.app-ltr-xvhy5p {
-    display: none;
-}
-
-/* Sadece mobilde (768px ve altındaki ekranlarda) görünür yap */
-@media (max-width: 768px) {
+/* Masaüstünde (769px ve üzeri ekranlarda) elementi gizle */
+@media (min-width: 769px) {
     .app-ltr-xvhy5p {
-        display: grid;
+        display: none !important; 
     }
 }
