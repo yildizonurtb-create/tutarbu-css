@@ -10,17 +10,4 @@ border-radius: 40px !important;
     background-attachment: fixed !important;
   }
 }
-/* Varsayılan olarak gizle (masaüstü) */
-.app-ltr-xvhy5p {
-    display: none !important;
-}
 
-/* Sadece mobilde göster */
-@media (max-width: 768px) {
-    .app-ltr-xvhy5p {
-        display: grid !important;
-        gap: 16px !important;
-        grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
-    }
-}
-}
