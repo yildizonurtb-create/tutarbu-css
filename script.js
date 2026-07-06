@@ -8,3 +8,4 @@ if (resim && cizgi) {
     // 2. Resmin üstüne ve altına boşluk ekle (Sağ ve sol 0 kalır)
     resim.style.margin = '15px 0'; 
 }
+
