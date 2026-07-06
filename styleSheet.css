@@ -10,20 +10,17 @@ border-radius: 40px !important;
     background-attachment: fixed !important;
   }
 }
-/* 1. Adım: Elementi masaüstünde (ve her yerde) tamamen gizle */
-.app-ltr-1l44gyp {
-  display: none !important;
+/* Varsayılan olarak gizle (masaüstü) */
+.app-ltr-xvhy5p {
+    display: none !important;
 }
 
-/* 2. Adım: Sadece mobil ekranlarda (768px ve altı) elementi görünür yap ve ayarlarını uygula */
+/* Sadece mobilde göster */
 @media (max-width: 768px) {
-  .app-ltr-1l44gyp {
-    display: block !important; /* Elementi görünür yapar */
-    width: 100%;
-    max-width: 1432px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
+    .app-ltr-xvhy5p {
+        display: grid !important;
+        gap: 16px !important;
+        grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    }
+}
 }
