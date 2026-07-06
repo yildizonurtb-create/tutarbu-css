@@ -17,12 +17,14 @@ border-radius: 40px !important;
   }
 }
 
+/* MOBİL: görünür */
 .app-ltr-xvhy5p {
     display: grid !important;
 }
 
+/* DESKTOP: gizle */
 @media (min-width: 1025px) {
-.app-ltr-xvhy5p {
-    display: none !important;
-}
+    .app-ltr-xvhy5p {
+        display: none !important;
+    }
 }
