@@ -10,3 +10,13 @@ border-radius: 40px !important;
     background-attachment: fixed !important;
   }
 }
+@media (max-width: 768px) {
+  .app-ltr-1l44gyp {
+    width: 100%;
+    max-width: 1432px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
