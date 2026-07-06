@@ -2,13 +2,13 @@
 border-radius: 40px !important;
 }
 @media (min-width: 769px) {
-  .app-ltr-1l44gyp {
+  .app-ltr-xvhy5p {
     display: none !important;
   }
 }
 
 @media (max-width: 768px) {
-  .app-ltr-1l44gyp {
-    display: block !important;
+  .app-ltr-xvhy5p {
+    display: grid !important;
   }
 }
