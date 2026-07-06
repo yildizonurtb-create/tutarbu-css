@@ -10,8 +10,15 @@ border-radius: 40px !important;
     background-attachment: fixed !important;
   }
 }
+/* 1. Adım: Elementi masaüstünde (ve her yerde) tamamen gizle */
+.app-ltr-1l44gyp {
+  display: none !important;
+}
+
+/* 2. Adım: Sadece mobil ekranlarda (768px ve altı) elementi görünür yap ve ayarlarını uygula */
 @media (max-width: 768px) {
   .app-ltr-1l44gyp {
+    display: block !important; /* Elementi görünür yapar */
     width: 100%;
     max-width: 1432px;
     margin-left: auto;
