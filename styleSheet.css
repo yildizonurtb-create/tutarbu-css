@@ -1,3 +1,14 @@
 .app-ltr-v4gekj {
 border-radius: 40px !important;
 }
+@media (min-width: 769px) {
+  .app-ltr-1l44gyp {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-ltr-1l44gyp {
+    display: block !important;
+  }
+}
