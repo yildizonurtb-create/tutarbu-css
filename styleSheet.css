@@ -20,3 +20,9 @@ border-radius: 40px !important;
 .app-ltr-xvhy5p {
     display: none !important;
 }
+
+@media (min-width: 1025px) {
+.app-ltr-xvhy5p {
+    display: grid !important;
+}
+}
