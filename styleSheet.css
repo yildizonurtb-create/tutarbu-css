@@ -1,3 +1,16 @@
 .app-ltr-v4gekj {
 border-radius: 40px !important;
 }
+/* Masaüstünde ve büyük ekranlarda tamamen gizle */
+.app-ltr-xvhy5p {
+    display: none;
+}
+
+/* Sadece mobilde (768px ve altındaki ekranlarda) görünür yap */
+@media (max-width: 768px) {
+    .app-ltr-xvhy5p {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(6, minmax(0px, 1fr));
+    }
+}
