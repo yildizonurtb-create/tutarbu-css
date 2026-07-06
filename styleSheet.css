@@ -1,6 +1,12 @@
 .app-ltr-v4gekj {
 border-radius: 40px !important;
 }
+/* önce mobile default */
+.app-ltr-foxy03 {
+  background-image: none;
+}
+
+/* sonra desktop */
 @media (min-width: 1025px) {
   .app-ltr-foxy03 {
     background-image: url("https://github.com/yildizonurtb-create/tutarbu-css/blob/main/background.png?raw=true") !important;
