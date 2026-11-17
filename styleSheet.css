@@ -63,3 +63,14 @@ html body footer[data-mj="footer"] .license-clone .license-clone-img {
   width: 134px !important;
   height: auto !important;
 }
+
+@media (max-width: 768px) {
+  html body footer[data-mj="footer"] .license-clone .license-clone-img {
+    width: 100px !important;
+    height: auto !important;
+  }
+
+  html body footer[data-mj="footer"] .license-clone {
+    padding: 16px 0 70px !important;
+  }
+}
