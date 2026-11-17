@@ -41,3 +41,25 @@ display:none !important;
 .app-ltr-1yuhs8t {
 justify-content: center !important;
 }
+
+/* Lisans Logosu değiştirme */
+
+html body [data-mj="widget-curacao-license"] {
+  display: none !important;
+}
+
+html body footer[data-mj="footer"] .license-clone {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 20px 0 70px !important;
+  position: static !important;
+  transform: none !important;
+}
+
+html body footer[data-mj="footer"] .license-clone .license-clone-img {
+  display: block !important;
+  width: 134px !important;
+  height: auto !important;
+}
